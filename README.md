@@ -156,6 +156,3 @@ Nexmo API Keys
 -   Key and Secret will display in the top bar as shown in the below image:
 
     <img src="https://raw.githubusercontent.com/AdvaiyaLabs/Google-Cloud-with-Nexmo-SMS/master/docs/image19.png" width=600>
-
-	
-	
