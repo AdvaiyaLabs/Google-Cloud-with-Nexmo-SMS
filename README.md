@@ -3,9 +3,9 @@
 
 ## Introduction
 
-For system-wide visibility into Google Cloud resources and applications, user can leverage google messaging and monitoring services such as Google Monitoring Service to get notification for critical events such as CPU usage, disk usage, application performance, etc. To receive such notifications as SMS on mobile, user can use the Google Cloud with Nexmo SMS app that makes it easy to set up, operate, and send notifications from the Google Cloud. This app collects the published messages from Google Monitor services and immediately deliver them to subscriber’s mobile as SMS.
+For system-wide visibility into Google Cloud resources and applications, user can leverage google messaging and monitoring services such as Google Monitoring Service to get notification for critical events such as CPU usage, disk usage, application performance, etc. To receive such notifications as SMS on mobile, user can use the Google Cloud with [Nexmo SMS](https://www.nexmo.com/sms) app that makes it easy to set up, operate, and send notifications from the Google Cloud. This app collects the published messages from Google Monitor services and immediately deliver them to subscriber’s mobile as SMS.
 
-Google Cloud with Nexmo SMS app is a web service which sends SMS using Nexmo Messaging APIs. This service communicates with Google Monitoring service and sends SMS notification to the configured phone number whenever defined condition is true.
+Google Cloud with [Nexmo SMS](https://www.nexmo.com/sms) app is a web service which sends SMS using Nexmo Messaging APIs. This service communicates with Google Monitoring service and sends SMS notification to the configured phone number whenever defined condition is true.
 
 ## Use Case
 
@@ -49,11 +49,11 @@ Using GCE Monitoring service user can set thresholds for following:
 
 ## Steps to deploy the Google Cloud with Nexmo SMS
 
-To install the Google Cloud with Nexmo SMS app on Ubuntu 14.04 OS, follow the below steps:
+To install the Google Cloud with [Nexmo SMS](https://www.nexmo.com/sms) app on Ubuntu 14.04 OS, follow the below steps:
 
 1.  Login to the terminal using **SSH** or any other media.
 
-2.  Clone the Google Cloud with Nexmo SMS repository to the desire directory.
+2.  Clone the Google Cloud with [Nexmo SMS](https://www.nexmo.com/sms) repository to the desire directory.
 
     **```cd ~```**
 
@@ -61,14 +61,14 @@ To install the Google Cloud with Nexmo SMS app on Ubuntu 14.04 OS, follow the be
 	
     **```git clone```**[**```https://github.com/AdvaiyaLabs/Google-Cloud-with-Nexmo SMS.git```**](https://github.com/AdvaiyaLabs/Google-Cloud-with-Nexmo-SMS.git)
 
-3.  Change the directory to the Google Cloud with Nexmo SMS.
+3.  Change the directory to the Google Cloud with [Nexmo SMS](https://www.nexmo.com/sms).
 
     **```cd Google-Cloud-with-Nexmo-SMS```**
 4.  Run the following command to install and configure the Nexmo services.
 
     **```sudo python install.py```**
 	
-    The above steps will install following libraries on Google Cloud with Nexmo SMS instance:
+    The above steps will install following libraries on Google Cloud with [Nexmo SMS](https://www.nexmo.com/sms) instance:
     -   Django 1.8.5
 
    -   Nexmo library
