@@ -63,6 +63,6 @@ if __name__ == '__main__':
 
 		if distro in ['debian','ubuntu']:
 			install('apt-get',distro)
-			print OKGREEN + "GoogleNotifier alert installed successfully." + ENDC
+			print OKGREEN + "Google Cloud with Nexmo SMS installed successfully." + ENDC
 
 		subprocess.call(['python {0}/manage.py runserver 0.0.0.0:9033 --insecure &'.format(get_current)],shell=True)
